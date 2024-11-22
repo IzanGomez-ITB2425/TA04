@@ -124,7 +124,7 @@ main{
     margin: 30px auto;
     width: 190PX;
     height: 190px;
-    background-image: url(/assets/personalphoto.jpg);
+    background-image: url(personalphoto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
