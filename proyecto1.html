@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descripción del Proyecto: Gestión de Incidencias</title>
+    <style>
+        /* Reseteo de estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        section {
+            margin: 20px;
+        }
+        h3 {
+            color: #333;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            background-color: #007bff;
+            color: white;
+            padding: 0px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Estilos para el botón de descarga PDF */
+        .btn-pdf {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #4B7AFF;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            text-align: center;
+            margin-left: 15px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-pdf:hover {
+            background-color: #4B7AFF;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Proyecto 1: Obtención y Gestión de Datos de Incidencias</h1>
+        <p class="subtitulo">Descripción detallada de los pasos y resultados de mi proyecto para gestionar incidencias de equipos informáticos y audiovisuales.</p>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h3>1. Crear un Formulario para Recoger Datos</h3>
+            <p>El primer paso del proyecto consistió en diseñar un formulario que permitiera a los usuarios reportar incidencias sobre equipos informáticos y audiovisuales dentro de una organización.</p>
+            <p>El formulario recoge los siguientes datos:</p>
+            <ul>
+                <li>Nombre del equipo</li>
+                <li>Tipo de incidente (hardware, software, etc.)</li>
+                <li>Descripción detallada del problema</li>
+                <li>Fecha del incidente</li>
+                <li>Nombre del reportero</li>
+            </ul>
+            <p>Los datos recogidos se enviaron a Google Forms y se almacenaron en una hoja de cálculo de Google Sheets, desde donde se exportaron a un archivo CSV para su posterior procesamiento.</p>
+        </section>
+
+        <section class="section">
+            <h3>2. Migración de los Datos de CSV a XML</h3>
+            <p>Una vez que los datos fueron recolectados y almacenados en formato CSV, se realizó una conversión a formato XML. Esto se hizo para estructurar mejor la información y facilitar su posterior análisis.</p>
+            <p>El archivo CSV (incidencias.csv) fue convertido al archivo XML (incidencias.xml), lo que permitió organizar los datos en un formato más adecuado para su procesamiento y análisis automatizado.</p>
+        </section>
+
+        <section class="section">
+            <h3>3. Procesamiento de los Datos y Visualización en Pantalla</h3>
+            <p>En este paso, se desarrolló un programa en Python que leía los datos del archivo XML y los procesaba para mostrar información útil. Se creó un filtro para que el programa identificara incidencias relevantes y descartara aquellas que no aportaran valor (como datos de incidencias futuras, p. ej. 2064).</p>
+            <p>El programa mostraba los datos de manera formateada, con colores y tabuladores, para facilitar su lectura y comprensión.</p>
+        </section>
+
+        <section class="section">
+            <h3>4. Almacenamiento de la Información en Formato JSON</h3>
+            <p>Finalmente, los datos procesados fueron almacenados en formato JSON. Este paso añadió una nueva funcionalidad al programa en Python, permitiendo guardar los resultados en un archivo incidencias.json.</p>
+            <p>Este archivo JSON puede ser utilizado en aplicaciones futuras que requieran acceder y procesar los datos de forma eficiente.</p>
+        </section>
+
+        <!-- Botón para acceder al PDF -->
+        <a href="./assets/ta03 - Aritz_Ortega - Javier_Mendez - Cristhian_Godoy - Izan_Gómez - ASIXc1B..pdf" class="btn-pdf" target="_blank">Descargar Proyecto en PDF</a>
+    </div>
+
+    <footer>
+        <p>Proyecto desarrollado como parte del curso de Administración de Sistemas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
