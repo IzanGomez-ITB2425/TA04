@@ -19,38 +19,49 @@
 
             <div class="nav">
                 <a class="nav__l" href="#aboutme">About Me</a>
-                <a class="nav__l" href="project1.html">Project1</a>
-                <a class="nav__l" href="project2.html">Project2</a>
-                <a class="nav__l" href="projects.html">Projects</a>
-                <a class="nav__l" href="form.html">Contact form </a>
+                <a class="nav__l" href="proyecto1.html">Project1</a>
+                <a class="nav__l" href="proyecto2.html">Project2</a>
+                <a class="nav__l" href="proyectos.html">Projects</a>
             </div>
         </section>
     </header>
     <main>
         <section class="aboutme" id="aboutme">
             <h3 class="aboutme__title">About me</h3>
-            <img src="./assets/personalphoto.jpg" class="aboutme__photo">
+            <div class="aboutme__photo"></div>
             <aside class="aboutme__text">
-                I am student of ASIX-Cibersecurity and a future
-                computer engineer at the University Autonomic of
-                Barcelona. I am going to majoring in Cibersecurity,
-                with my superior cicle of sysadmin and with my degree in
-                computer engineering. Moreover, I'm open to any
-                opportunity and I have maximum availability.
-                On the other hand, I have different skills such as
-                team working, communication abilities, I can speak 3
-                languages, leadership and full motivation to learn.
+                I am a junior in the College of Information and Computer
+                Sciences at the University of Massachusetts Amherst,
+                pursuing an undergraduate degree. I am majoring in Computer
+                Science, with intent to double major in Mathematics with
+                Statistics and Data Science concentration. I'm involved
+                as a Software Developer for BUILD UMass, where I use my
+                software engineering skills for pro-bono app/web development
+                and tech consulting for the Amherst community. I also serve
+                as a Designer for the HackUMass Organizing Team, responsible
+                for graphics design and production for the annual hackathon.
+                I am interested in exploring the fields of Software Engineering,
+                Data Science, and Machine Learning, and I am open to opportunities
+                for the same.
             </aside>
+
+            <p>My favorite
+                <script src="./js/particles.min.js"></script>
+                <script src="./js/app.js"></script>tools for version control, code editing, and container orchestration.
+            </p>
+            </div>
+            </div>
         </section>
 
         <section class="projects" id="projects">
-            <h2 class="projects__title">Featured Projects</h2>
+            <h2 class="projects__title">Fetured Projects</h2>
             <div class="projects__item itemPro">
                 <div>
                     <h3 class="projects__item__title">Data Obtaining</h3>
                     <div>
-                        <i class="devicon-harddisk-original colored icon"></i>
+                        <i class="devicon-react-original colored icon"></i>
                         <i class="devicon-bootstrap-plain colored icon"></i>
+                        <i class="devicon-github-original colored icon"></i>
                     </div>
                     <p class="projects__item__text">
                         This project involves creating a form to collect IT and audiovisual equipment incident data,
@@ -58,18 +69,19 @@
                         the processed data in a JSON file. Data privacy is also a key consideration throughout the
                         process.
                     </p>
-                    <a class="btn__project" href="project1.html">Check it out!</a>
+                    <a class="btn__project" href="#">Check it out!</a>
                 </div>
-                <div>
+                <article>
                     <img class="img__project" src="./assets/TA03.png" alt="" width="500px">
-                </div>
+                </article>
             </div>
-            <div class="projects__item__reverse itemPro">
+            <article class="projects__item__reverse itemPro">
                 <div>
                     <h3 class="projects__item__title">Hardware Presentation</h3>
                     <div>
                         <i class="devicon-react-original colored icon"></i>
                         <i class="devicon-css3-plain colored icon"></i>
+                        <i class="devicon-github-original colored icon"></i>
                     </div>
                     <div>
                         <p class="projects__item__text">
@@ -78,31 +90,32 @@
                             (HDDs) and Solid State Drives (SSDs), comparing their performance, capacity, and
                             reliability. We also explore the latest ones and their characteristics.
                         </p>
-                        <a class="btn__project" href="project2.html">Check it out!</a>
-                        <br> <br> <br>
+                        <a class="btn__project" href="#">Check it out!</a>
                     </div>
                 </div>
-                <div>
+                <article>
                     <img class="img__project" src="./assets/project2.png" alt="" width="500px">
-                </div>
-            </div>
+                </article>
+            </article>
+
         </section>
+        <br> <br> <br>  
     </main>
 
     <footer>
-        <p class="visit-counter"> Views: <span id="visitCounter">0</span></p>
+
         <div class="containerLogoLinks">
-            <a target="_blank" href="form.html"><img class="logoLinks" src="./assets/sheetlogo.svg"
-                    alt="sheetlogo"></a>
-            <a target="_blank" href="https://github.com/IzanGomez-ITB2425"><img class="logoLinks" src="./assets/githublogo.svg" alt="githublogo"></a>
-            <a target="_blank" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJTNqLQVgshMbqcWmCZhbzgZxdxpfMfCzCfSQlBnrHxRCnJDNCThzqQFsvWdXDZPRvFqpLB"><img class="logoLinks" src="./assets/gmaillogo.svg" alt="gmaillogo"></a>
+            <a target="_blank" href="#"><img class="logoLinks" src="./assets/linkedinlogo.svg" alt=""></a>
+            <a target="_blank" href="form.html"><img class="logoLinks" src="./assets/sheetlogo.svg" alt="sheetlogo"></a>
+            <a target="_blank" href="#"><img class="logoLinks" src="./assets/githublogo.svg" alt="githublogo"></a>
+            <a target="_blank" href="#"><img class="logoLinks" src="./assets/gmaillogo.svg" alt="gmaillogo"></a>
         </div>
         <p>&copy; 2024 Group 2. All rights reserved.</p>
     </footer>
 
+    <!-- JS Particles -->
     <script src="./js/particles.min.js"></script>
     <script src="./js/app.js"></script>
-    <script src="./js/views.js"></script>
 </body>
 
 </html>
